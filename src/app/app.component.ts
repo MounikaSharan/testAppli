@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'application';
 
   public name="ABC company";
-  public details="Internship";
+  public details="Internship Form";
   public image="/assets/download.png";
 
   onClick() {
