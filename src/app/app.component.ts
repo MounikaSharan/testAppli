@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'application';
+
+  public name="ABC company";
+  public details="Internship";
+  public image="/assets/download.png";
+
+  onClick() {
+    console.log("Registered successfully")
+  }
+
 }
